@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function About
-() {
-  return (
-    <h1>About
+export const metadata = {
+  title: "About Code evolution",
+};
 
-    </h1>
-  )
+function About() {
+  return <h1>About</h1>;
 }
 
-export default About
+export default About;
